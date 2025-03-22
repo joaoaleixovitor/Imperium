@@ -20,16 +20,17 @@
 }
 
 .sections a {
-    position: relative; /* Para posicionar o texto corretamente */
+    position: relative; 
     display: block;
-    overflow: hidden; /* Evita que elementos saiam da área do link */
+    overflow: hidden;
     width: 60%;
 }
 
 .sections img {
     width: 100%;
     display: block;
-    transition: filter 0.3s ease-in-out;
+    transition: filter 0.3s linear;
+    border-radius: 8px;
 }
 
 .sections a::after {
@@ -44,9 +45,8 @@
     transition: opacity .3s linear;
 }
 
-/* Efeito no hover */
 .sections a:hover img {
-    filter: blur(5px);
+    filter: blur(4px);
 }
 
 .sections a:hover::after {
