@@ -2,14 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    width: 90%;
 }
 
 #fragrance-gateway h2 {
     text-align: center;
-    margin: 30px;
-
+    margin: 12px;
 }
 
 #fragrance-gateway a {
@@ -17,34 +14,41 @@
 }
 
 .sections {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sections a {
+    position: relative; /* Para posicionar o texto corretamente */
+    display: block;
+    overflow: hidden; /* Evita que elementos saiam da área do link */
+    width: 60%;
 }
 
 .sections img {
     width: 100%;
+    display: block;
     transition: filter 0.3s ease-in-out;
 }
 
-.sections p {
+.sections a::after {
+    content: "Ver";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1em;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px 20px;
-    border-radius: 5px;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity .3s linear;
 }
 
-.sections:hover img {
+/* Efeito no hover */
+.sections a:hover img {
     filter: blur(5px);
 }
 
-.sections:hover p {
+.sections a:hover::after {
     opacity: 1;
 }
