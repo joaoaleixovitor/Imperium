@@ -1,0 +1,20 @@
+#aurum-perfume {
+    background-color: #F9E8B3;
+}
+
+#aurum-perfume h3::after{
+    content: '';
+    display: block;
+    width: 20%;
+    height: 0.313rem;
+    background: #F2C54C;
+}
+
+#aurum-perfume a {
+    background-color: #F9A61E;
+}
+
+#aurum-perfume a:hover {
+    transition: .2s;
+    background-color: #F1C04A;
+}

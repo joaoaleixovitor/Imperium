@@ -1,0 +1,50 @@
+#essentia_collection {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#essentia_collection  h2 {
+    margin: 32px;
+    text-align: center;
+}
+
+.card-perfume {
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 16px;
+    box-shadow: 3px 3px 8px -1px rgba(0, 0, 0, 0.5);
+}
+
+.card-perfume > img {
+    border-radius: 8px;
+}
+
+.paragraph-container {
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto; 
+}
+
+.paragraph-container h3 {
+    margin-bottom: 16px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.paragraph-container > p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.paragraph-container a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+}

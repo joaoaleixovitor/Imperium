@@ -1,0 +1,24 @@
+#premium_make_collection{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    background-image: url(../../../../images/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#premium_make_collection > span {
+    color: white;
+    margin-bottom: 32px;
+    animation: moverSeta 2s ease-in-out infinite alternate;
+}
+
+@keyframes moverSeta {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 30px);
+    }
+}

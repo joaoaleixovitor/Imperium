@@ -1,0 +1,20 @@
+#flora-perfume {
+    background-color: #C9E9D6;
+}
+
+#flora-perfume h3::after{
+    content: '';
+    display: block;
+    width: 15%;
+    height: 0.313rem;
+    background: #81C59C;
+}
+
+#flora-perfume a {
+    background-color: #63A67C;
+}
+
+#flora-perfume a:hover {    
+    transition: .2s;
+    background-color: #81D5A1;
+}

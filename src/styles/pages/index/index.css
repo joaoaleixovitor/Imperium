@@ -1,0 +1,10 @@
+@import url(../../global.css);
+
+@import url(partials/header.css);
+@import url(partials/make_collection.css);
+
+@import url(partials/essentia_collection.css);
+@import url(partials/amethysta-perfume.css);
+@import url(partials/flora-perfume.css);
+@import url(partials/aurum-perfume.css);
+@import url(partials/fragance-gateway.css);

@@ -1,0 +1,20 @@
+#amethysta-perfume {
+    background-color: #E8D9F3;
+}
+
+#amethysta-perfume h3::after{
+    content: '';
+    display: block;
+    width: 28%;
+    height: 0.313rem;
+    background: #A98BE4;
+}
+
+#amethysta-perfume a {
+    background-color: #A961E0;
+}
+
+#amethysta-perfume a:hover {
+    transition: .2s;
+    background-color: #B78ED9;
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Bodoni Moda", serif;
+}
+
+h2, h3 {
+    font-family: "Crimson Text", serif;
+}
+
+p, a {
+    font-family: "Jost", sans-serif;
+}
+
+body {
+    justify-content: center;
+}
