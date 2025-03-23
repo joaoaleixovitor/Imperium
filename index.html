@@ -6,40 +6,41 @@
     <title>Imperium</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="src/styles/pages/index/index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jockey+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jockey+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kode+Mono:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
     <script src="src/scripts/pages/index/index.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Imperium</h1>
-        <nav class="big-screen">
-            <ul>
-                <li><a href="#">New In</a></li>
-                <li><a href="#">Men's Fragrances</a></li>
-                <li><a href="#">Women's Fragrances</a></li>
-                <li><a href="#">Gifts</a></li>
-            </ul>
-        </nav>
-        <nav class="big-screen">    
-            <ul>
-                <li><a href="#"><span class="material-symbols-outlined">search</span></a></li>
-                <li><a href="#"><span class="material-symbols-outlined">favorite</span></a></li>
-                <li><a href="#"><span class="material-symbols-outlined">person</span></a></li>
-                <li><a href="#"><span class="material-symbols-outlined">shopping_bag</span></a></li>
-            </ul>    
-        </nav>
-        <nav id="icons" class="small-screen">    
-            <ul>
-                <li><a href="#"><span class="material-symbols-outlined">search</span></a></li>
-                <li><a href="#"><span class="material-symbols-outlined">favorite</span></a></li>
-                <li id="buttonHamburguerMenu"><a href="#"><span class="material-symbols-outlined">menu</span></a></li>
-            </ul>    
-        </nav>
-        <div id="menu-hamburguer" class="small-screen">
-            <nav>
+    <main>
+        <section id="premium_make_collection">
+            <div id="header">
+                <h1>Imperium</h1>
+                <div class="big-screen">
+                    <nav>
+                        <ul>
+                            <li><a href="#">New In</a></li>
+                            <li><a href="#">Men's Fragrances</a></li>
+                            <li><a href="#">Women's Fragrances</a></li>
+                            <li><a href="#">Gifts</a></li>
+                        </ul>
+                    </nav>
+                    <nav>    
+                        <ul>
+                            <li><a href="#"><span class="material-symbols-outlined">search</span class="button"></a></li>
+                            <li><a href="#"><span class="material-symbols-outlined">favorite</span class="button"></a></li>
+                            <li><a href="#"><span class="material-symbols-outlined">person</span class="button"></a></li>
+                            <li><a href="#"><span class="material-symbols-outlined">shopping_bag</span class="button"></a></li>
+                        </ul>    
+                    </nav>
+                </div>
+                <nav class="small-screen">    
+                    <ul>
+                        <li><a href="#"><span class="material-symbols-outlined">search</span class="button"></a></li>
+                        <li><a href="#"><span class="material-symbols-outlined">favorite</span class="button"></a></li>
+                        <li id="buttonHamburguerMenu"><a href="#"><span class="material-symbols-outlined">menu</span class="button"></a></li>
+                    </ul>    
+                </nav>
+            </div>
+            <nav id="menu-hamburguer" class="small-screen closed">
                 <ul>
                     <li><a href="#">New In</a></li>
                     <li><a href="#">Men's Fragrances</a></li>
@@ -49,39 +50,33 @@
                     <li><a href="#">Bag</a></li>
                 </ul> 
             </nav>
-        </div>
-    </header>
-    <main>
-        <section id="premium_make_collection">
             <span class="material-symbols-outlined">arrow_downward</span>
         </section>
         <section id="essentia_collection">
-            <div class="test">
-                <h2>New Essentia Collection</h2>
-            </div>
+            <h2>New Essentia Collection</h2>
             <div id="amethysta-perfume" class="card-perfume">
                 <img src="src/images/amethysta.png" alt="amethysta">           
                 <div class="paragraph-container">
                     <h3>Amethysta</h3>
                     <p>Amethysta é o mistério da noite. Uma mistura intrigante de lavanda, âmbar e madeira preciosa, este perfume seduz com sua fragrância enigmática e profunda. Ideal para aqueles que buscam destacar-se com sofisticação e um toque de ousadia.</p>
-                    <a href="#">Ver mais</a>
                 </div>
+                <a href="#">Ver mais</a>
             </div>
             <div id="flora-perfume" class="card-perfume">
+                <img src="src/images/flora.png" alt="flora">
                 <div class="paragraph-container">
                     <h3>Flora</h3>
                     <p>Flora é a essência da elegância natural. Com uma combinação delicada de flores raras como peônias e jasmim, Flora é um perfume fresco e refinado, ideal para mulheres que buscam sofisticação em sua forma mais pura. Seu aroma leve e floral envolve quem o usa em um halo de beleza serena.</p>
-                    <a href="#">Ver mais</a>
                 </div>
-                <img src="src/images/flora.png" alt="flora">
+                <a href="#">Ver mais</a>
             </div>
             <div id="aurum-perfume" class="card-perfume">
                 <img src="src/images/aurum.png" alt="aurum">
                 <div class="paragraph-container">
                     <h3>Aurum</h3>
                     <p>Aurum é o perfume do poder. Sua fragrância intensa, com notas de ouro, âmbar e especiarias exóticas, transmite uma sensação de sucesso e prestígio. Criado para quem deseja ser notado, Aurum é o toque final de uma presença imbatível.</p>
-                    <a href="#">Ver mais</a>
                 </div>
+                <a href="#">Ver mais</a>
             </div>
         </section>
         <section id="fragrance-gateway">
@@ -127,7 +122,7 @@
                     <li><a href="#">Cookies Policy</a></li>
                 </ul>
             </nav>
-            <nav>
+            <nav class="big-screen">
                 <h3>Follow Us</h3>
                 <ul>
                     <li><a href="#">Instagram</a></li>
@@ -137,6 +132,16 @@
                 </ul>
             </nav>
         </div>
+        <hr>
+        <nav id="social-medias" class="small-screen">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="#"><img src="src/images/ig.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="src/images/fb.png" alt="facebook"></a></li> 
+                <li><a href="#"><img src="src/images/x.png" alt=""></a></li>
+                <li><a href="#"><img src="src/images/yt.png" alt=""></a></li>
+            </ul>
+        </nav>
         <hr>
         <p id="copyright">"© 2025 Imprerium. All Rights Reserved."</p>
     </footer>

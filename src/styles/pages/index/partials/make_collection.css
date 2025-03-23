@@ -1,14 +1,30 @@
 #premium_make_collection{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "header header header"
+    "none arrow menu-hamburguer";
+	justify-items: center;
     height: 100vh;
     background-image: url(../../../../images/bg.png);
     background-size: cover;
     background-position: center;
+	overflow: hidden;
+}	
+
+#premium_make_collection > header {
+  	grid-area: header;
+	grid-column: span 3;
+}
+
+#premium_make_collection #menu-hamburguer {
+	grid-area: menu-hamburguer;
 }
 
 #premium_make_collection > span {
+	align-self: end;
+  	grid-area: arrow;
     color: white;
     margin-bottom: 32px;
     animation: moverSeta 2s ease-in-out infinite alternate;

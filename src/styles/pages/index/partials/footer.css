@@ -8,10 +8,6 @@ footer {
 #other-links {
     display: flex;
     flex-flow: row nowrap;
-}
-
-#other-links {
-    display: flex;
     justify-content: space-evenly;
 }
 
@@ -23,14 +19,9 @@ footer {
     font-size: 1em;
 }
 
-#other-links span{
-    margin: 4px;
-    font-size: 1em;
-}
-
 #other-links ul{
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     align-items: flex-start;
     list-style-type: none;
 }
@@ -42,6 +33,49 @@ footer {
 }
 
 #other-links a:hover{
+    text-decoration: underline;
+}
+
+#social-medias {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#social-medias h3{
+    display: flex;
+    text-align: left;
+    font-size: 1em;
+}
+
+#social-medias span{
+    margin: 4px;
+    font-size: 1em;
+}
+
+#social-medias ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    list-style-type: none;
+}
+
+#social-medias li{
+    margin: 8px;
+}
+
+#social-medias a{
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+}
+
+#social-medias img{
+    color: white;
+    width: 32px;
+}
+
+#social-medias a:hover{
     text-decoration: underline;
 }
 

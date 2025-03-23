@@ -1,0 +1,47 @@
+#menu-hamburguer {
+    background-color: var(--color1);
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    transform: translateX(100%);
+}
+
+#menu-hamburguer ul {
+    list-style-type: none;
+}
+
+#menu-hamburguer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu-hamburguer a:hover {
+    text-decoration: underline;
+}
+
+.opened {
+    animation: slide-in .3s ease forwards;
+}
+
+.closed {
+    animation: slide-out .3s ease forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}

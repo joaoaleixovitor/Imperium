@@ -6,7 +6,6 @@
 
 #fragrance-gateway h2 {
     text-align: center;
-    margin: 12px;
 }
 
 #fragrance-gateway a {
@@ -23,7 +22,7 @@
     position: relative; 
     display: block;
     overflow: hidden;
-    width: 60%;
+    width: 80%;
 }
 
 .sections img {
