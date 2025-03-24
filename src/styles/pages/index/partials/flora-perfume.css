@@ -5,7 +5,7 @@
 #flora-perfume h3::after{
     content: '';
     display: block;
-    width: 15%;
+    width: 110%;
     height: 0.313rem;
     background: #81C59C;
 }

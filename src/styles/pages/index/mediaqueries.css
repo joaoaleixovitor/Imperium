@@ -1,0 +1,55 @@
+@media screen and (max-width: 600px){  
+    nav.small-screen {
+        display: block !important;
+    }
+    nav.big-screen {
+        display: none !important;
+    }  
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {  
+    nav.small-screen {
+        display: block !important;
+    }
+    nav.big-screen {
+        display: none !important;
+    }  
+
+    .card-perfume {
+        flex-direction: row;
+        align-items: center;
+        width: 90%;
+    }
+    .paragraph-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraph-container a {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .small-screen {
+        display: none !important;
+    }
+    .big-screen {
+        display: flex !important;
+    }
+    #header:hover{
+        background-color: var(--color1);
+    }
+    div.big-screen {
+        flex-direction: row;
+    }
+    #sections a{
+        margin: 0 8px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .card-perfume {
+        flex-direction: row;
+        width: 60%;
+    }
+}
