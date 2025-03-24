@@ -14,7 +14,6 @@
     nav.big-screen {
         display: none !important;
     }  
-
     .card-perfume {
         flex-direction: row;
         align-items: center;
@@ -47,7 +46,6 @@
         text-decoration: none;
         color: white;
     }
-    
     .card-perfume {
         flex-direction: row;
         width: 60%;
