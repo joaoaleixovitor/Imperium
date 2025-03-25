@@ -8,7 +8,11 @@ footer {
 #other-links {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+
+#other-links nav {
+    margin: 0 28px;
 }
 
 #other-links h3{
@@ -39,7 +43,7 @@ footer {
 #social-medias {
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
+    margin: 0 28px;
 }
 
 #social-medias h3{
